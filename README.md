@@ -5,15 +5,19 @@ pass by Val, pass by Ref
 
 然而，運算子仍然不能視為成員函數，尤其是第一個運算元為內建型別時。
 
-運算子函數必須遵從兩項規則的其中一個：
+運算子函數必須遵從兩項規則：
 
 1. 需要成為成員函數。(scope 作用域在類別中)
 
-2. 至少帶有一個 user-defined 的 Argument。
+2. 至少帶有一個 self-defined 的 Argument。
 
                          將(輸入) -> 輸出
 
                          (輸入的型別 輸入)：輸出的型別
+                         
+範例：
+
+
 
 在程式設計中，當我們意圖要 define ops，初衷其實是要為 Class 或是 Structure 提供一慣用寫法，例如 a=b+c，故針對引數 Argument 傳入運算子函數
 
