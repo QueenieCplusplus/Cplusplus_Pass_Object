@@ -9,4 +9,9 @@ pass by Val, pass by Ref
 
 在程式設計中，當我們意圖要 define ops，初衷其實是要為 Class 或是 Structure 提供一慣用寫法，例如 a=b+c，故針對引數 Argument 傳入運算子函數
 
+# Pass Obj by Val
+
+
+# Pass Obj by Ref
+
 TBD...尚未完成。
