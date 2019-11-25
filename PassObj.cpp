@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include<stdlib.h>
 
+// pass object by const-reference
 // return 是 & 參照（記憶體位址）
 int& INT::operator+= int(const int& i)
 {
