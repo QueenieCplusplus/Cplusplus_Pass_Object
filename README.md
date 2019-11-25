@@ -17,6 +17,13 @@ pass by Val, pass by Ref
                          
 範例：
 
+                 enum DaysRemain { 1125, 1126, 1127};
+                 
+                 DaysRemain& operator++(DaysRemain& date)
+                 {
+                     return dr = (1127==date) ? 1125 : static_cast<DaysRemain>(date+1);
+                 }
+
 
 
 在程式設計中，當我們意圖要 define ops，初衷其實是要為 Class 或是 Structure 提供一慣用寫法，例如 a=b+c，故針對引數 Argument 傳入運算子函數
