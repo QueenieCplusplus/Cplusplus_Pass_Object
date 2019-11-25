@@ -1,6 +1,8 @@
 # Cplusplus_Pass_Object
 pass by Val, pass by Ref
 
+# Ops Overload = func Overload
+
 所謂運算子多載，其實就是說類別中的多個方法，多載的英文 overload，即類別聆聽到輸入的參數個數，配合約束型別限制的引數（特定型別），而選用適用的運算式。(編譯器會利用 overload resolution rule 判別檢驗運算式)
 
 然而，運算子仍然不能視為成員函數，尤其是第一個運算元為內建型別時。
