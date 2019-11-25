@@ -22,13 +22,19 @@ pass by Val, pass by Ref
 # Pass Obj by Ref
 
 適用於大型物件，例如 Matrix 矩陣的物件或是 Array 陣列的物件，亦適合 LinkedList 串列的物件。
+但仍然不推薦使用此種方式傳遞物件，可以用取代方案：
 
-範例：
+
+參照傳遞的範例：
 
 
             Matrix operator+(const Matrix&, const Matrix&);
             // 亦可利用 const reference 傳遞物件資訊
             
+
+取代方案：
+
+
  
 # Return Vale 
 
