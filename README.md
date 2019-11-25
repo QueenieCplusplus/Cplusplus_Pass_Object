@@ -11,6 +11,13 @@ pass by Val, pass by Ref
 
 # Pass Obj by Val
 
+適用於小型物件，1 到 4 個字組，推薦使用，因於存取效能會比 pass by ref 還快。
+
+範例：
+
+            void Point::operator+=(Point data);
+            
+            
 
 # Pass Obj by Ref
 
