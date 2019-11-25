@@ -27,6 +27,7 @@ pass by Val, pass by Ref
 
 
             Matrix operator+(const Matrix&, const Matrix&);
+            // 亦可利用 const reference 傳遞物件資訊
             
             
 
