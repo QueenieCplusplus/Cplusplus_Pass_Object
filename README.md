@@ -29,6 +29,9 @@ pass by Val, pass by Ref
             Matrix operator+(const Matrix&, const Matrix&);
             // 亦可利用 const reference 傳遞物件資訊
             
-            
+ 
+# Return Vale 
+
+基本上，運算子均會回傳結果值，可能傳回物件* 或是參照，但設計這樣的回傳型態，其實不是很好的做法，因為指標 * 會產生寫法問題，而利用 * 或是 ref 引用位於 free store 自由空間上的物件，會導致 HeapDump 記憶體洩漏的問題。
 
 TBD...尚未完成。
