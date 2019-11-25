@@ -34,6 +34,8 @@ pass by Val, pass by Ref
 
 取代方案：
 
+            定義搬移數值的函數
+
 
  
 # Return Vale 
