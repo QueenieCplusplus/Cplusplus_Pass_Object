@@ -27,8 +27,17 @@ pass by Val, pass by Ref
 
 
             Matrix operator+(const Matrix&, const Matrix&);
-            // 亦可利用 const reference 傳遞物件資訊
+            // 利用 const reference 傳遞物件資訊
             
+            
+            // return 是 & 參照（記憶體位址）
+            int& INT::operator+= int(const int& i)
+            {
+                int* j = elem;
+                int* k = i.elem;
+                *j++ += *k++;
+                return *this;
+            }           
 
 取代方案：
 
