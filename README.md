@@ -25,11 +25,16 @@ pass by Val, pass by Ref
 
 參照傳遞的範例：
 
+by by const ref
+>>>
 
             Matrix operator+(const Matrix&, const Matrix&);
             // 利用 const reference 傳遞物件資訊
             
             
+return by ref
+>>>
+
             // return 是 & 參照（記憶體位址）
             int& INT::operator+= int(const int& i)
             {
